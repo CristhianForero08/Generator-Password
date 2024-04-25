@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseña Segura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/media/ordenador.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+
+            <h1>Generador de Contraseña Segura</h1>
+            <p>Las contraseñas seguras son esenciales para proteger la información confidencial y las cuentas en línea.</p>
+            <h2>Características de una contraseña segura:</h2>
+            <ul>
+                <li>Longitud: Las contraseñas deben tener al menos 12 caracteres de longitud.</li>
+                <li>Complejidad: Deben incluir una combinación de letras mayúsculas, minúsculas, números y símbolos.</li>
+                <li>Unicidad: No se deben reutilizar en diferentes cuentas.</li>
+                <li>Dificultad para adivinar: No deben ser fáciles de adivinar, como nombres, fechas de nacimiento o palabras comunes.</li>
+                <li>Almacenamiento seguro: No se deben almacenar en texto plano y se deben utilizar gestores de contraseñas para protegerlas.</li>
+            </ul>
+
+        </div>
+
+        <div class="generador">          
+            
+            <h2>Generar tu Contraseña:</h2>          
+            <input class="longitud" id="longitud" type="range" min="6" max="150" value="6" step="1" required>     
+            <p id="textoRango"></p>  
+            <p id="alerta"></p>
+            <div id="resultado"></div>
+            <button id="button">Copiar contraseña</button>
+            <p class="copia" id="copia"></p>
+        </div>
+
+        <div id="container1">
+            <div id="circle"></div>
+        </div>
+
+        <footer><a href="https://cristhianforero.com/" target="_blank">By Cristhian Forero </a></footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

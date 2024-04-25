@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./media/bg001.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #0d2800;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.longitud {
+    width: 70%; 
+    height: 50px;
+    color: #6dff4c;
+    accent-color: #6dff4c;
+        
+}
+
+
+
+button {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6dff4c;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7bff5d;
+}
+
+#resultado {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00000055;
+}
+
+#copia{
+    font-size: 14px;
+    font-style: italic;
+}
+
+#circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px #64ff4c solid;
+    
+}
+
+a{
+    color: #64ff4c;
+}
+
+a:hover{
+    color: #7bff5d;
+    text-decoration: overline;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background: #000000;
+        
+    }
+
+    #circle {
+        display: none;
+        
+    }
+}
